@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<Sex_female &le; 0.5<br/>gini = 0.487<br/>samples = 499<br/>value = [290, 209]<br/>class = Survived>, fillcolor="#f8dcc8"] ;
+1 [label=<Pclass_1 &le; 0.5<br/>gini = 0.335<br/>samples = 315<br/>value = [248, 67]<br/>class = Survived>, fillcolor="#eca36e"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<Age &le; 9.5<br/>gini = 0.264<br/>samples = 243<br/>value = [205, 38]<br/>class = Survived>, fillcolor="#ea985e"] ;
+1 -> 2 ;
+3 [label=<gini = 0.494<br/>samples = 18<br/>value = [8, 10]<br/>class = Did not survive>, fillcolor="#d7ebfa"] ;
+2 -> 3 ;
+4 [label=<gini = 0.218<br/>samples = 225<br/>value = [197, 28]<br/>class = Survived>, fillcolor="#e99355"] ;
+2 -> 4 ;
+5 [label=<Age &le; 36.5<br/>gini = 0.481<br/>samples = 72<br/>value = [43, 29]<br/>class = Survived>, fillcolor="#f7d6bf"] ;
+1 -> 5 ;
+6 [label=<gini = 0.471<br/>samples = 29<br/>value = [11, 18]<br/>class = Did not survive>, fillcolor="#b2d9f5"] ;
+5 -> 6 ;
+7 [label=<gini = 0.381<br/>samples = 43<br/>value = [32, 11]<br/>class = Survived>, fillcolor="#eeac7d"] ;
+5 -> 7 ;
+8 [label=<Pclass_3 &le; 0.5<br/>gini = 0.352<br/>samples = 184<br/>value = [42, 142]<br/>class = Did not survive>, fillcolor="#74baed"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label=<Age &le; 2.5<br/>gini = 0.114<br/>samples = 115<br/>value = [7, 108]<br/>class = Did not survive>, fillcolor="#46a3e7"] ;
+8 -> 9 ;
+10 [label=<gini = 0.5<br/>samples = 2<br/>value = [1, 1]<br/>class = Survived>, fillcolor="#ffffff"] ;
+9 -> 10 ;
+11 [label=<gini = 0.101<br/>samples = 113<br/>value = [6, 107]<br/>class = Did not survive>, fillcolor="#44a2e6"] ;
+9 -> 11 ;
+12 [label=<Fare &le; 20.8<br/>gini = 0.5<br/>samples = 69<br/>value = [35, 34]<br/>class = Survived>, fillcolor="#fefbf9"] ;
+8 -> 12 ;
+13 [label=<gini = 0.487<br/>samples = 55<br/>value = [23, 32]<br/>class = Did not survive>, fillcolor="#c7e3f8"] ;
+12 -> 13 ;
+14 [label=<gini = 0.245<br/>samples = 14<br/>value = [12, 2]<br/>class = Survived>, fillcolor="#e9965a"] ;
+12 -> 14 ;
+}
