@@ -24,7 +24,7 @@ model = PPO(
 )
 
 # Train the model
-model.learn(total_timesteps=1000000)
+model.learn(total_timesteps=50000000)
 
 # Save the trained model
 model.save("snake_dqn")
