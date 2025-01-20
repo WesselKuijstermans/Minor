@@ -1,0 +1,9 @@
+[2024-11-13 11:34:48,270][INFO] Initializing generator.
+[2024-11-13 11:34:49,149][WARNING] No pre-trained model will be loaded!
+[2024-11-13 11:34:49,166][INFO] Preparing boundary.
+[2024-11-13 11:34:49,170][INFO] Preparing latent codes.
+[2024-11-13 11:34:49,172][INFO]   Load latent codes from `../stylegan-encoder/output_vectors.npy`.
+[2024-11-13 11:34:49,183][INFO] Editing 2 samples.
+[2024-11-13 11:38:26,486][DEBUG]   Finished sample   0.
+[2024-11-13 11:41:42,670][DEBUG]   Finished sample   1.
+[2024-11-13 11:41:42,671][INFO] Successfully edited 2 samples.
